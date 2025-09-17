@@ -4,8 +4,8 @@ import AdminNav from '@/components/AdminNav.vue';
 
 <template>
     <AdminNav/>
-    
     <div>
+       
      <RouterView />
     </div>
 </template>
