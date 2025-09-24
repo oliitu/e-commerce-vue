@@ -34,7 +34,7 @@ import Link from '@/components/Link.vue';
       validation="required" 
       :validation-messages="{required: 'Seleccioná la categoria q es obligatoria'}"/>
       <FormKit 
-      type="numbre" 
+      type="number" 
       label="Precio" 
       name="price" 
       placeholder="Precio del producto" 
