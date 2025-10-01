@@ -3,7 +3,7 @@ import Link from '@/components/Link.vue';
 </script>
 
 <template>
-  <div class="mt-40">
+  <div class="m-40">
     <Link 
     to="products"
     >Volver
@@ -34,7 +34,7 @@ import Link from '@/components/Link.vue';
       validation="required" 
       :validation-messages="{required: 'Seleccioná la categoria q es obligatoria'}"/>
       <FormKit 
-      type="numbre" 
+      type="number" 
       label="Precio" 
       name="price" 
       placeholder="Precio del producto" 
